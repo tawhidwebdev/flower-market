@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+  <title>Flower Market</title>
+</head>
+
+<body class="bg-[##F5F8FF]">
+  <header>
+    <!-- Navber section -->
+    <nav class="container mx-auto">
+      <div class="nav_wrapper py-5 flex justify-between items-center">
+        <div class="logo">
+          <img src="./images/logo.png" alt="Logo">
+        </div>
+        <div class="menu flex items-center gap-x-12">
+          <ul class="hidden md:flex items-center gap-x-12 capitalize text-[#8987A1] text-base/normal font-[Inter] font-normal line">
+            <li class="hover:text-[#252432] hover:font-bold" ><a href="#">home</a></li>
+            <li class="hover:text-[#252432] hover:font-bold"><a href="#">shop</a></li>
+            <li class="hover:text-[#252432] hover:font-bold"><a href="#">about us</a></li>
+          </ul>
+          <div class="shopping_cart flex items-center gap-2.5 font-[Inter] text-base/normal font-normal hover:text-[#252432] hover:font-bold">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="25" viewBox="0 0 24 25" fill="none">
+              <g clip-path="url(#clip0_5_30)">
+                <path
+                  d="M9 22.5C9.55228 22.5 10 22.0523 10 21.5C10 20.9477 9.55228 20.5 9 20.5C8.44772 20.5 8 20.9477 8 21.5C8 22.0523 8.44772 22.5 9 22.5Z"
+                  stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                <path
+                  d="M20 22.5C20.5523 22.5 21 22.0523 21 21.5C21 20.9477 20.5523 20.5 20 20.5C19.4477 20.5 19 20.9477 19 21.5C19 22.0523 19.4477 22.5 20 22.5Z"
+                  stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                <path
+                  d="M1 1.5H5L7.68 14.89C7.77144 15.3504 8.02191 15.764 8.38755 16.0583C8.75318 16.3526 9.2107 16.509 9.68 16.5H19.4C19.8693 16.509 20.3268 16.3526 20.6925 16.0583C21.0581 15.764 21.3086 15.3504 21.4 14.89L23 6.5H6"
+                  stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+              </g>
+              <defs>
+                <clipPath id="clip0_5_30">
+                  <rect width="24" height="24" fill="white" transform="translate(0 0.5)" />
+                </clipPath>
+              </defs>
+            </svg>
+            Cart ($56)
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- Banner section -->
+    <section>
+      <div class="container mx-auto" >
+        <div class="banner_wrapper px-4 md:px-0 mt-7 md:mt-30 flex flex-col-reverse gap-7 md:grid md:grid-cols-2">
+          <div class="banner_info w-full h-auto flex flex-col justify-end">
+            <h1 class="title text-black font-bold text-2xl md:text-6xl/normal font-[Noto-Serif]">ALWAYS <span class="text-[#E95A08]">FRESH ALWAYS FRESH</span> </h1>
+            <div class="content text-[#00000080] text-sm md:text-[22px] font-[Inter] font-normal mt-3">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh flowers that are perfect for any occasion. </div>
+          </div>
+          <div class="banner_img w-full h-auto">
+            <picture><img class="w-full h-full bg-cover" src="./images/hero-flower.png" alt=""></picture>
+          </div>
+        </div>
+      </div>
+    </section>
+  </header>
+  <main></main>
+  <footer></footer>
+</body>
+
+</html>
